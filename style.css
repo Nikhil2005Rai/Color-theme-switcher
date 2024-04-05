@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    /* max-width: 450px; */
+    text-align: center;
+}
+
+span button{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+span button:hover{
+    cursor: pointer;
+}
+.colors{
+    margin-top: 5%;
+}
+
+#gray button{
+    background-color: gray;
+}
+#white button{
+    background-color: white;
+}
+#blue button{
+    background-color: blue;
+}
+#yellow button{
+    background-color: yellow;
+}
+
+.container p{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: larger;
+}
